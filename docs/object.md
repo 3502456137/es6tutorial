@@ -1331,6 +1331,7 @@ a?.b.c().d
 // 如果 a 是 null 或 undefined，下面的语句不产生任何效果
 // 否则执行 a.b = 42
 a?.b = 42
+console.log(1111------)
 
 // 如果 a 是 null 或 undefined，下面的语句不产生任何效果
 delete a?.b
